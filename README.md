@@ -9,3 +9,4 @@ This repo's directory structure reflects Python code seperated by questions atte
 ## Progress
 
 1. Day 1 - 15/07/2020 - Solved 12 questions
+2. Day 2 - 16/07/2020 - Solved 9 questions
