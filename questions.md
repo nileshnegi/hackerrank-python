@@ -56,28 +56,28 @@ All sorted lowercase letters are ahead of uppercase letters.
 All sorted uppercase letters are ahead of digits.
 All sorted odd digits are ahead of sorted even digits.
 
-13. sWAP cASE
+13. sWAP cASE  
 You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa.
 
-14. String Split and Join
+14. String Split and Join  
 You are given a string. Split the string on a " " (space) delimiter and join using a - hyphen.
 
-15. What's Your Name?
+15. What's Your Name?  
 You are given the firstname and lastname of a person on two different lines.
 Your task is to read them and print the following: "Hello _first name_ _last name_! You just delved into python."
 
-16. Mutations
+16. Mutations  
 Read a given string, change the character at a given index and then print the modified string.
 
-17. Find a String
+17. Find a String  
 In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string.
 String traversal will take place from left to right, not from right to left.
 
-18. String Validators
+18. String Validators  
 You are given a string ```S```.
 Your task is to find out if the string contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
 
-19. Text Alignment
+19. Text Alignment  
 You are given a partial code that is used for generating the HackerRank Logo of variable thickness.
 Your task is to replace the blank (______) with rjust, ljust or center.
 
@@ -108,12 +108,26 @@ Your task is to replace the blank (______) with rjust, ljust or center.
         print(((c*(thickness-i-1)).______(thickness)+c+(c*(thickness-i-1)).______(thickness)).______(thickness*6))
     ```
 
-20. Text Wrap
+20. Text Wrap  
 You are given a string ```S``` and width ```w```.
 Your task is to wrap the string into a paragraph of width ```w```.
 
-21. Designer Doormat
+21. Designer Doormat  
 Mr. Vincent works in a door mat manufacturing company. One day, he designed a new door mat with the following specifications:
 Mat size must be ```N X M```. (```N``` is an odd natural number, and ```M``` is 3 times ```N```)
 The design should have 'WELCOME' written in the center.
 The design pattern should only use |, . and - characters.
+
+22. String Formatting  
+Given an integer, ```n```, print the following values for each integer ```i``` from 1 to n: Decimal, Octal, Hexadecimal (capitalized) and Binary.
+The four values must be printed on a single line in the order specified above.
+Each value should be space-padded to match the width of the binary value of ```n```
+
+23. Alphabet Rangoli  
+You are given an integer, ```N```. Your task is to print an alphabet rangoli of size ```N```. (Rangoli is a form of Indian folk art based on creation of patterns.)
+The center of the rangoli has the first alphabet letter a, and the boundary has the alphabet letter (in alphabetical order).
+
+24. Capitalize!  
+You are asked to ensure that the first and last names of people begin with a capital letter in their passports.
+For example, ```alison heck``` should be capitalised correctly as ```Alison Heck```.
+Also ```12abc``` when capitalized remains ```12abc```.
