@@ -1,6 +1,6 @@
 # Problem statements from HackerRank Python practice
 
-The topic of these bullet items reflect the title of each problem from HackerRank. What follows is a summary of the problem description.
+The topic of these bullet items reflect the title of each problem from HackerRank. What follows is a summary of the problem description. (Note: *Question titles highlighted in bold are of interest*)
 
 1. List Comprehensions  
 You are given three integers ```x```, ```y``` and ```z``` and representing the dimensions of a cuboid along with an integer ```n```.
@@ -131,3 +131,63 @@ The center of the rangoli has the first alphabet letter a, and the boundary has 
 You are asked to ensure that the first and last names of people begin with a capital letter in their passports.
 For example, ```alison heck``` should be capitalised correctly as ```Alison Heck```.
 Also ```12abc``` when capitalized remains ```12abc```.
+
+25. **The Minion Game**  
+Both players are given the same string, ```S```. Both players have to make substrings using the letters of this string.
+Stuart has to make words starting with consonants. Kevin has to make words starting with vowels.
+The game ends when both players have made all possible substrings.
+
+26. Merge the Tools!  
+Consider a string ```s``` of length ```n```, where ```s = c0c1c2....cn-1``` and an integer ```k```, where ```k``` is a factor of ```n```.
+Split ```s``` into ```n/k``` sub-segments where each subsegment ```t``` consists of a contiguous block of ```k``` characters in ```s```.
+Then, use each ```t``` to create string ```u``` such that: The characters in ```u``` are a sub-sequence of the characters in ```t``` and Any repeat occurrence of a character is removed from the string such that each character in ```u``` occurs exactly once.
+Given ```s``` and ```k```, print ```n/k``` lines where each line ```i``` denotes string ```u```.
+
+27. **Triangle Quest 2**  
+You are given a positive integer ```N```.
+Your task is to print a palindromic triangle of size ```N```.
+Restrictions: Using only one print statement inside a for loop from 1 to ```N```. Cannot use: string operations, for-loops or unpacking.
+For example, a palindromic triangle of size ```5``` is:
+
+    ```python
+    1
+    121
+    12321
+    1234321
+    123454321
+    ```
+
+28. Mod Divmod  
+Read in two integers ```a``` and ```b``` and print three lines: The first line is the integer division: ```a // b```. The second line is the result of the modulo operator: ```a % b```. The third line prints the divmod of ```a``` and ```b```.
+
+29. Power - Mod Power  
+You are given three integers: ```a```, ```b``` and ```m```. Print two lines: The first line should print the result of ```pow(a,b)```. The second line should print the result of ```pow(a,b,m)```.
+
+30. Integeres Come In All Sizes  
+Read four numbers ```a```, ```b```, ```c``` and ```d```, and print the result of a^b + c^d.
+
+31. **Triangle Quest**  
+You are given a positive integer ```N```. Print a numerical triangle of height ```N-1``` like the one below. Can you do it using only arithmetic operations, a single for loop and print statement?
+
+    ```python
+    1
+    22
+    333
+    4444
+    55555
+    ......
+    ```
+
+32. **Validating Email Addresses with a Filter**  
+You are given an integer ```N``` followed by ```N``` email addresses. Your task is to print a list containing only valid email addresses in lexicographical order.
+Valid email addresses must follow these rules:
+
+    - It must have the username@websitename.extension format type.
+    - The username can only contain letters, digits, dashes and underscores.
+    - The website name can only have letters and digits.
+    - The maximum length of the extension is 3
+
+33. Reduce Function  
+First line contains ```n```, the number of rational numbers.
+The ```ith``` of next ```n``` lines contain two integers each, the numerator ```N``` and denominator ```D``` of the ```ith``` rational number in the list.
+Print only one line containing the numerator and denominator of the product of the numbers in the list in its simplest form, i.e. numerator and denominator have no common divisor other than 1.
