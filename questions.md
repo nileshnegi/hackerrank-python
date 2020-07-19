@@ -191,3 +191,18 @@ Valid email addresses must follow these rules:
 First line contains ```n```, the number of rational numbers.
 The ```ith``` of next ```n``` lines contain two integers each, the numerator ```N``` and denominator ```D``` of the ```ith``` rational number in the list.
 Print only one line containing the numerator and denominator of the product of the numbers in the list in its simplest form, i.e. numerator and denominator have no common divisor other than 1.
+
+34. Array Mathematics  
+You are given two integer arrays ```A``` and ```B``` of dimensions ```N x M```. Your task is to perform the following operations: Add (```A + B```), Subtract (```A - B```), Multiply (```A * B```), Integer Division (```A / B```), Mod (```A % B```) and Power (```A ** B```).
+
+35. Floor, Ceil and Rint  
+You are given a 1-D array ```A```. Your task is to print the floor, ceil and rint of all the elements of ```A```.
+
+36. Sum and Prod  
+You are given a 2-D array with dimensions ```N x M```. Your task is to perform sum over axis 0 and then find the product of that result.
+
+37. Min and Max  
+You are given a 2-D array with dimensions ```N x M```. Your task is to perform the min function over ```axis=1``` and then find the max of that.
+
+38. Mean, Var and Std  
+You are given a 2-D array of size ```N x M```. Your task is to find: The mean along ```axis 1```, The var along ```axis 0``` and The std along ```axis None```.
