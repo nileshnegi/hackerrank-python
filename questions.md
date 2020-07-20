@@ -206,3 +206,40 @@ You are given a 2-D array with dimensions ```N x M```. Your task is to perform t
 
 38. Mean, Var and Std  
 You are given a 2-D array of size ```N x M```. Your task is to find: The mean along ```axis 1```, The var along ```axis 0``` and The std along ```axis None```.
+
+39. Dot and Cross  
+You are given two arrays ```A``` and ```B```. Both have dimensions of ```N x N```. Your task is to compute their matrix product ```AB```.
+
+40. Inner and Outer  
+You are given two arrays: ```A``` and ```B```. Your task is to compute their inner and outer product.
+
+41. Polynomials  
+You are given the coefficients of a polynomial ```P``` and another line containing ```x```. Your task is to find the value of ```P(x)```.
+
+42. Linear Algebra  
+You are given a square matrix ```A``` with dimensions ```N x N```. Your task is to find the determinant. Note: Round the answer to 2 places after the decimal.
+
+43. Set .symmetric_difference() Operation  
+You are given two sets of student roll numbers. One set has subscribed to the English newspaper, and one set has subscribed to the French newspaper.
+Your task is to find the total number of students who have subscribed to either the English or the French newspaper but not both.
+
+44. Set Mutations  
+You are given a set ```A``` and ```N``` number of other sets. These ```N``` number of sets have to perform some specific mutation operations on set ```A```.
+Your task is to execute those operations and print the sum of elements from set ```A```.
+The first line contains the number of elements in set ```A```. The second line contains the space separated list of elements in set ```A```. The third line contains integer ```N```, the number of other sets.
+The next ```2*N``` lines are divided into ```N``` parts containing two lines:
+The first line of each part contains the space separated entries of the operation name and the length of the other set.
+The second line contains space separated list of elements in the other set.
+
+45. The Captain's Room  
+Mr. Anant Asankhya is the manager at the INFINITE hotel. The hotel has an infinite amount of rooms. One fine day, a finite number of tourists come to stay at the hotel. The tourists consist of: A Captain and An unknown group of families consisting of ```K``` members per group.
+The Captain has a separate room, and the rest were given one room per group. Mr. Anant has an unordered list of randomly arranged room entries. The list consists of the room numbers for all of the tourists which will appear ```K``` times per group except for the Captain's room.
+Mr. Anant needs you to help him find the Captain's room number. The total number of tourists or the total number of groups is not known. You only know the value of ```K``` and the room number list.
+
+46. Check Subset  
+You are given two sets ```A``` and ```B```. Your job is to find if set ```A``` is a subset of set ```B```.
+The first line will contain the number of test cases. The first line of each test case contains the number of elements in ```A```. The second line of each test case contains space separated elements of ```A```. The third line of each test case contains the number of elements in ```B```. The fourth line of each test case contains space separated elements of ```B```.
+
+47. Check Strict Superset  
+You are given a set ```A``` and ```N``` other sets.Your job is to find whether set ```A``` is a strict superset of each of these ```N``` sets.
+A strict superset has at least one element that does not exist in its subset.
