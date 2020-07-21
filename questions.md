@@ -243,3 +243,9 @@ The first line will contain the number of test cases. The first line of each tes
 47. Check Strict Superset  
 You are given a set ```A``` and ```N``` other sets.Your job is to find whether set ```A``` is a strict superset of each of these ```N``` sets.
 A strict superset has at least one element that does not exist in its subset.
+
+48. collections.Counter()  
+Raghu is a shoe shop owner. His shop has ```X``` number of shoes. He has a list containing the size of each shoe he has in his shop. There are ```N``` number of customers who are willing to pay ```x``` amount of money only if they get the shoe of their desired size. Your task is to compute how much money Raghu earned.
+
+49. DefaultDict Tutorial  
+In this challenge, you will be given 2 integers, ```n``` and ```m```. There are ```n``` words, which might repeat, in word group ```A```. There are ```m``` words belonging to word group ```B```. For each ```m``` words, check whether the word has appeared in group ```A```. Print the indices of each occurrence of ```m``` in group ```A```. If it does not appear, print -1.
