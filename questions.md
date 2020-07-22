@@ -249,3 +249,15 @@ Raghu is a shoe shop owner. His shop has ```X``` number of shoes. He has a list 
 
 49. DefaultDict Tutorial  
 In this challenge, you will be given 2 integers, ```n``` and ```m```. There are ```n``` words, which might repeat, in word group ```A```. There are ```m``` words belonging to word group ```B```. For each ```m``` words, check whether the word has appeared in group ```A```. Print the indices of each occurrence of ```m``` in group ```A```. If it does not appear, print -1.
+
+50. Collections.namedtuple()  
+Dr. John Wesley has a spreadsheet containing a list of student IDs, marks, class and names. These columns can be in any order for different testcases. Your task is to help Dr. Wesley calculate the average marks of the students.
+
+51. Collections.OrderedDict()  
+You are the manager of a supermarket. You have a list of items together with their prices that consumers bought on a particular day. Your task is to print each item_name and net_price in order of its first occurrence.
+
+52. Word Order  
+You are given words. Some words may repeat. Print the total number of unique words. Also for each word, output its number of occurrences. The output order should correspond with the input order of appearance of the word.
+
+53. Collections.deque()  
+A deque is a double-ended queue. It can be used to add or remove elements from both ends. Perform append, pop, popleft and appendleft methods on an empty deque ```d```.
