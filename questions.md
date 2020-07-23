@@ -261,3 +261,25 @@ You are given words. Some words may repeat. Print the total number of unique wor
 
 53. Collections.deque()  
 A deque is a double-ended queue. It can be used to add or remove elements from both ends. Perform append, pop, popleft and appendleft methods on an empty deque ```d```.
+
+54. Piling Up!  
+The first line contains a single integer ```T```, the number of test cases. For each test case, there are 2 lines. The first line of each test case contains ```n```, the number of cubes. The second line contains ```n``` space separated integers, denoting the sideLengths of each cube in that order.
+
+55. Company Logo  
+Given a string ```s``` which is the company name in lowercase letters, your task is to find the top three most common characters in the string. Print the three most common characters along with their occurrence count. Sort in descending order of occurrence count. If occurrence count is the same, sort the characters in alphabetical order.
+
+56. Introduction to Sets  
+Ms. Gabriel Williams is a botany professor at District College. One day, she asked her student Mickey to compute the average of all the ```N``` plants with distinct heights in her greenhouse.
+
+57. Symmetric Difference  
+Given 2 sets of integers, ```M``` and ```N```, print their symmetric difference in ascending order. The term symmetric difference indicates those values that exist in either or but do not exist in both.
+
+58. No Idea!  
+There is an array of ```n``` integers. There are also 2 disjoint sets, ```A``` and ```B```, each containing integers. You like all the integers in set ```A``` and dislike all the integers in set ```B```. Your initial happiness is ```0```. For each integer in the array, if ```i in A```, you add ```1``` to your happiness. If ```i in B```, you add ```-1``` to your
+happiness. Otherwise your happiness does not change. Output your final happiness at the end.
+
+59. Set .add()  
+The first line contains an integer ```N```, the total number of country stamps. The next ```N``` lines contains the name of the country where the stamp is from.
+
+60. Set .discard(), .remove() & .pop()  
+You have a non-empty set ```s``` and you have to execute ```N``` commands given in ```N``` lines. The commands will be pop, remove and discard.
