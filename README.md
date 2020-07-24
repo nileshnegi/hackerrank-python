@@ -8,12 +8,13 @@ This repo's directory structure reflects Python code seperated by questions atte
 
 ## Progress
 
-1. Day 1 - 15/07/2020 - Solved 12 questions
-2. Day 2 - 16/07/2020 - Solved 9 questions
-3. Day 3 - 17/07/2020 - Solved 3 questions
-4. Day 4 - 18/07/2020 - Solved 9 questions
-5. Day 5 - 19/07/2020 - Solved 5 questions
-6. Day 6 - 20/07/2020 - Solved 9 questions
-7. Day 7 - 21/07/2020 - Solved 2 questions
-8. Day 8 - 22/07/2020 - Solved 4 questions
-9. Day 9 - 23/07/2020 - Solved 7 questions
+01. Day 1 - 15/07/2020 - Solved 12 questions
+02. Day 2 - 16/07/2020 - Solved 9 questions
+03. Day 3 - 17/07/2020 - Solved 3 questions
+04. Day 4 - 18/07/2020 - Solved 9 questions
+05. Day 5 - 19/07/2020 - Solved 5 questions
+06. Day 6 - 20/07/2020 - Solved 9 questions
+07. Day 7 - 21/07/2020 - Solved 2 questions
+08. Day 8 - 22/07/2020 - Solved 4 questions
+09. Day 9 - 23/07/2020 - Solved 7 questions
+10. Day 10 - 24/07/2020 - Solved 5 questions

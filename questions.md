@@ -283,3 +283,18 @@ The first line contains an integer ```N```, the total number of country stamps. 
 
 60. Set .discard(), .remove() & .pop()  
 You have a non-empty set ```s``` and you have to execute ```N``` commands given in ```N``` lines. The commands will be pop, remove and discard.
+
+61. Set .union() Operations  
+You are given two sets of student roll numbers. One set has subscribed to the English newspaper, and the other set is subscribed to the French newspaper. The same student could be in both sets. Your task is to find the total number of students who have subscribed to at least one newspaper.
+
+62. Set .intersection() Operation  
+You are given two sets of student roll numbers. One set has subscribed to the English newspaper, one set has subscribed to the French newspaper. Your task is to find the total number of students who have subscribed to both newspapers.
+
+63. Set .difference() Operation  
+You are given two sets of student roll numbers. One set has subscribed to the English newspaper, and one set has subscribed to the French newspaper. Your task is to find the total number of students who have subscribed to only English newspapers.
+
+64. Re.findall() & Re.finditer()  
+You are given a string ```S```. It consists of alphanumeric characters, spaces and symbols(+,-). Your task is to find all the substrings of that contains or more vowels. Also, these substrings must lie in between consonants and should contain vowels only.
+
+65. Re.start() & Re.end()  
+You are given a string ```S```. Your task is to find the indices of the start and end of string ```k``` in ```S```.
