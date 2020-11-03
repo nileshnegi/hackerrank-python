@@ -298,3 +298,21 @@ You are given a string ```S```. It consists of alphanumeric characters, spaces a
 
 65. Re.start() & Re.end()  
 You are given a string ```S```. Your task is to find the indices of the start and end of string ```k``` in ```S```.
+
+66. itertools.product()
+Given two lists `A` and `B`, compute their cartesian product `AxB`. Eg. `product(A, B)` returns the same as `((x,y) for x in A for y in B)`.
+
+67. itertools.permutations()
+Given a string `S`, print all possible permutations of length `r` in a lexographic sorted order.
+
+68. itertools.combinations()
+Given a string `S`, print all possible combinations upto length `r` in a lexographic sorted order.
+
+69. itertools.combinations_with_replacement()
+Given a string `S`, print all possible combinations allowing elements to repeated more than once, of length `r` in a lexographic sorted order.
+
+70. Compress the String!
+Given a string `S`, if a character `c` occurs consecutively `X` times in it, replace these occurences with `(X, c)`. Eg. Input: 122233211 --> Output: (1, 1) (3, 2) (2, 3) (1, 2) (2, 1).
+
+71. Iterables and Iterators
+Given a list of `N` lowercase english letters and an integer `K`, select any `K` indices (assume 1-based indexing) with a uniform probability from the list. Then compute probability that atleast one of these tuples contains the letter 'a'.
