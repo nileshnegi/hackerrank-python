@@ -299,20 +299,50 @@ You are given a string ```S```. It consists of alphanumeric characters, spaces a
 65. Re.start() & Re.end()  
 You are given a string ```S```. Your task is to find the indices of the start and end of string ```k``` in ```S```.
 
-66. itertools.product()
+66. itertools.product()  
 Given two lists `A` and `B`, compute their cartesian product `AxB`. Eg. `product(A, B)` returns the same as `((x,y) for x in A for y in B)`.
 
-67. itertools.permutations()
+67. itertools.permutations()  
 Given a string `S`, print all possible permutations of length `r` in a lexographic sorted order.
 
-68. itertools.combinations()
+68. itertools.combinations()  
 Given a string `S`, print all possible combinations upto length `r` in a lexographic sorted order.
 
-69. itertools.combinations_with_replacement()
+69. itertools.combinations_with_replacement()  
 Given a string `S`, print all possible combinations allowing elements to repeated more than once, of length `r` in a lexographic sorted order.
 
-70. Compress the String!
+70. Compress the String!  
 Given a string `S`, if a character `c` occurs consecutively `X` times in it, replace these occurences with `(X, c)`. Eg. Input: 122233211 --> Output: (1, 1) (3, 2) (2, 3) (1, 2) (2, 1).
 
-71. Iterables and Iterators
+71. Iterables and Iterators  
 Given a list of `N` lowercase english letters and an integer `K`, select any `K` indices (assume 1-based indexing) with a uniform probability from the list. Then compute probability that atleast one of these tuples contains the letter 'a'.
+
+72. Maximize it!  
+You are given a function `f(X) = X^2` and `K` lists, where the `i^th` list contains `N_i` elements. Pick one element from each list so that the value for `S = (f(X_1) + f(X_2) + ... + f(X_K)) % M` is maximized.
+
+73. Zeros and Ones  
+You are given the shape of the array in the form of space-seperated integers and you should print an array of 0s and array of 1s in integer format.
+
+74. Eye and Identity  
+Your task is to print an array of size `NxM` with its main diagonal elements as `1's` and other elements as `0's`.
+
+75. Polar Coordinates  
+You are given a complex number `z`. Your task is to convert it into polar coordinates and print the modulus `r` and phase `phi`
+
+76. Find angle MBC  
+Given sides AB and BC of a right angle traingle ABC, right angled at B, find angle MBC where M is the midpoint of the hypotenuse AC.
+
+77. Detect Floating Point Number  
+Given a string `N`, verify if it is a floating point number.
+
+78. Re.split()  
+You are given a string `s` consisting only of digits `0-9`, commas `,`, and dots `.`. Your task is to use re.split() to split the string delimited by `,` and `.` symbols.
+
+79. Group(), Groups() & Groupdict()  
+You are given a string `S`. Your task is to find the first occurrence of an alphanumeric character in `S` (read from left to right) that has consecutive repetitions.
+
+80. Regex Substitution  
+You are given a text of `N` lines. Replace occurences of `&&` with `and` and `||` with `or`.
+
+81. Validating Roman Numerals  
+You are given a string, and you have to validate whether it's a valid Roman numeral.
