@@ -346,3 +346,12 @@ You are given a text of `N` lines. Replace occurences of `&&` with `and` and `||
 
 81. Validating Roman Numerals  
 You are given a string, and you have to validate whether it's a valid Roman numeral.
+
+82. Validating phone numbers  
+Given `N` inputs, check if they are a valid phone number. A valid mobile number is a ten digit number starting with `7`, `8` or `9`.
+
+83. Validating and Parsing Email Addresses  
+A valid email address meets the following criteria -- It's composed of a username, domain name, and extension assembled in this format: `username@domain.extension`. The username starts with an English alphabetical character, and any subsequent characters consist of one or more of the following: alphanumeric characters, `-`, `.` and `_`. The domain and extension contain only English alphabetical characters. The extension is `1`, `2` or `3` characters in length. Given `n` pairs of names and email addresses as input, print each name and email address pair having a valid email address on a new line.
+
+84. Hex Color Code  
+You are given `N` lines of CSS code. Your task is to print all valid Hex Color Codes, in order of their occurrence from top to bottom. Specifications: A Hex color code starts with `#` and has 3 or 6 characters from `0-9` or `A-F`/`a-f`.
