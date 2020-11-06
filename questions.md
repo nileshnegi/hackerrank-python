@@ -351,7 +351,41 @@ You are given a string, and you have to validate whether it's a valid Roman nume
 Given `N` inputs, check if they are a valid phone number. A valid mobile number is a ten digit number starting with `7`, `8` or `9`.
 
 83. Validating and Parsing Email Addresses  
-A valid email address meets the following criteria -- It's composed of a username, domain name, and extension assembled in this format: `username@domain.extension`. The username starts with an English alphabetical character, and any subsequent characters consist of one or more of the following: alphanumeric characters, `-`, `.` and `_`. The domain and extension contain only English alphabetical characters. The extension is `1`, `2` or `3` characters in length. Given `n` pairs of names and email addresses as input, print each name and email address pair having a valid email address on a new line.
+Given `n` pairs of names and email addresses as input, print each name and email address pair having a valid email address on a new line. A valid email address meets the following criteria:
+    - It's composed of a username, domain name, and extension assembled in this format: `username@domain.extension`.
+    - The username starts with an English alphabetical character, and any subsequent characters consist of one or more of the following: alphanumeric characters, `-`, `.` and `_`.
+    - The domain and extension contain only English alphabetical characters.
+    - The extension is `1`, `2` or `3` characters in length.
 
 84. Hex Color Code  
 You are given `N` lines of CSS code. Your task is to print all valid Hex Color Codes, in order of their occurrence from top to bottom. Specifications: A Hex color code starts with `#` and has 3 or 6 characters from `0-9` or `A-F`/`a-f`.
+
+85. HTML Parser - Part 1  
+You are given an HTML code snippet of `N` lines. Your task is to print start tags, end tags and empty tags separately, along with their attributes.
+
+86. HTML Parser - Part 2  
+You are given an HTML code snippet of `N` lines. Your task is to print the single-line comments, multi-line comments and the data. Do not print data if data == '\n'.
+
+87. Detect HTML Tags, Attributes and Attribute Values  
+The first line contains an integer `N`, the number of HTML code lines. The next `N` lines contain HTML code. Print the HTML tags, attributes and attribute values in order of their occurrence from top to bottom in the snippet. Format your answers as explained in the problem statement.
+
+88. Validating UID  
+The company has assigned you the task of validating all the randomly generated UIDs. A valid UID must follow the rules below:
+    - It must contain at least `2` uppercase English alphabet characters.
+    - It must contain at least `3` digits.
+    - It should only contain alphanumeric characters `(a-z, A-Z and 0-9)`.
+    - No character should repeat.
+    - There must be exactly `10` characters in a valid UID.
+
+89. Validating Credit Card Numbers  
+A valid credit card has the following characteristics:
+    - It must start with `4`, `5` or `6`.
+    - It must contain exactly 16 digits `[0-9]`.
+    - It may have digits in groups of 4, seperated by a hyphen `-`.
+    - It must not use any seperators like ` `, `_`, etc.
+    - It must not have `4` or more consecutive repeated digits.
+
+90. Validating Postal Codes  
+A valid postal code `P` has to fullfil both below requirements:
+    - `P` must be a number in the range from `100000` to `999999` inclusive.
+    - `P` must not contain more than one alternating repetitive digit pair.
