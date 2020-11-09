@@ -22,3 +22,4 @@ This repo's directory structure reflects Python code seperated by questions atte
 12. Day 12 - 04/11/2020 - Solved 10 questions
 13. Day 13 - 05/11/2020 - Solved 3 questions
 14. Day 14 - 06/11/2020 - Solved 6 questions
+15. Day 15 - 09/11/2020 - Solved 8 questions

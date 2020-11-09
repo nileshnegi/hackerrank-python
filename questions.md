@@ -382,10 +382,34 @@ A valid credit card has the following characteristics:
     - It must start with `4`, `5` or `6`.
     - It must contain exactly 16 digits `[0-9]`.
     - It may have digits in groups of 4, seperated by a hyphen `-`.
-    - It must not use any seperators like ` `, `_`, etc.
+    - It must not use any seperators like space, underscore, etc.
     - It must not have `4` or more consecutive repeated digits.
 
 90. Validating Postal Codes  
 A valid postal code `P` has to fullfil both below requirements:
     - `P` must be a number in the range from `100000` to `999999` inclusive.
     - `P` must not contain more than one alternating repetitive digit pair.
+
+91. Matrix Script  
+The first line contains space-separated integers `N`(rows) and `M`(columns). The next `N` lines contain the row elements of the matrix script. To decode the script, replace symbols or spaces between 2 alphanumeric characters with a single space for better readability.
+
+92. Calendar Module  
+You are given a date. Your task is to find what the day is on that date. The input is in `MM DD YYYY` format.
+
+93. Time Delta  
+Find the difference in seconds between two timestamps per testcase, in the following format `Day DD Month YYYY hh:mm:ss +xxxx`, where `+xxxx` is the time zone in UTC format.
+
+94. Incorrect Regex  
+Find out if the input string `S` is a valid regex or not.
+
+95. Default Arguments  
+In this challenge, the task is to debug the existing code to successfully execute all provided test files.
+
+96. XML 1 - Find the Score  
+Output a single line, the integer score of the given XML document. This integer score is calculated by the sum of the score of each element. For any element, this score is equal to the number of attributes it has.
+
+97. XML 2 - Find the Maximum Depth  
+You are given a valid XML document, and you have to print the maximum level of nesting in it. Take the depth of the root as `0`.
+
+98. Map and Lambda Function  
+You have to generate a list of the first `N` fibonacci numbers, `0` being the first number. Then, apply the map function and a lambda expression to cube each fibonacci number and print the list.
