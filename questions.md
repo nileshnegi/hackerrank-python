@@ -413,3 +413,27 @@ You are given a valid XML document, and you have to print the maximum level of n
 
 98. Map and Lambda Function  
 You have to generate a list of the first `N` fibonacci numbers, `0` being the first number. Then, apply the map function and a lambda expression to cube each fibonacci number and print the list.
+
+99. Classes: Dealing with Complex Numbers  
+You are given two complex numbers, and you have to print the result of their addition, subtraction, multiplication, division and modulus operations by overloading methods of the in-built `Complex` class. The real and imaginary precision part should be correct up to two decimal places.
+
+100. Class 2 - Find the Torsional Angle  
+Given four points `A`, `B`, `C` and `D` in a 3D Cartesian coordinate system, print the angle between the plane made by the points `A`, `B`, `C` and `B`, `C`, `D` in degrees (not radians). Let this angle be `phi`. So `cos(phi) = (X.Y)/(|X||Y|)` where `X = ABxBC` and `Y = BCxCD`, and `X.Y` is the dot product of `X` and `Y`, and `ABxBC` is the cross product of `AB` and `BC`. Also `AB = B-A`.
+
+101. Concatenate  
+Given two integer arrays of size `NXP` and `MXP`, your task is to concatenate them along axis `0` in an array of size `(N+M)xP`.
+
+102. Exceptions  
+Given two values `a` and `b`, perform integer division and print `a/b`. In the case of `ZeroDivisionError` or `ValueError`, print the error code.
+
+103. Words Score  
+Consider that vowels in the alphabet are `a`, `e`, `i`, `o`, `u` and `y`. Function `score_words` takes a list of lowercase words as an argument and returns a score as follows: The score of a single word is `2` if the word contains an even number of vowels. Otherwise, the score of this word is `1`. The score for the whole list of words is the sum of scores of all words. 
+
+104. Shape and Reshape  
+You are given a space separated list of nine integers. Your task is to convert this list into a `3X3` NumPy array.
+
+105. Transpose and Flatten  
+You are given a `NXM` integer array matrix with space separated elements. Your task is to print the transpose and flatten results.
+
+106. Arrays  
+You are given a space separated list of numbers. Your task is to print a reversed NumPy array with the element type float.
