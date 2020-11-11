@@ -427,7 +427,7 @@ Given two integer arrays of size `NXP` and `MXP`, your task is to concatenate th
 Given two values `a` and `b`, perform integer division and print `a/b`. In the case of `ZeroDivisionError` or `ValueError`, print the error code.
 
 103. Words Score  
-Consider that vowels in the alphabet are `a`, `e`, `i`, `o`, `u` and `y`. Function `score_words` takes a list of lowercase words as an argument and returns a score as follows: The score of a single word is `2` if the word contains an even number of vowels. Otherwise, the score of this word is `1`. The score for the whole list of words is the sum of scores of all words. 
+Consider that vowels in the alphabet are `a`, `e`, `i`, `o`, `u` and `y`. Function `score_words` takes a list of lowercase words as an argument and returns a score as follows: The score of a single word is `2` if the word contains an even number of vowels. Otherwise, the score of this word is `1`. The score for the whole list of words is the sum of scores of all words.
 
 104. Shape and Reshape  
 You are given a space separated list of nine integers. Your task is to convert this list into a `3X3` NumPy array.
@@ -437,3 +437,9 @@ You are given a `NXM` integer array matrix with space separated elements. Your t
 
 106. Arrays  
 You are given a space separated list of numbers. Your task is to print a reversed NumPy array with the element type float.
+
+107. Standardize Mobile Numbers using Decorators  
+You are given `N` mobile numbers. Sort them in ascending order, then print them in the standard format: `+91 xxxxx xxxxx`. The given mobile numbers may have `0`, `+91` or `91` written before the actual number. Alternatively, there may not be any prefix at all.
+
+108. Decorators2 - Name Directory  
+Given some information about `N` people where each person has a first name, last name, age and sex. Print their names in a specific format sorted by their age in ascending order i.e. the youngest person's name should be printed first. For two people of the same age, print them in the order of their input.
